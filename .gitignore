@@ -1,0 +1,24 @@
+# dependencies
+node_modules
+
+# opennext
+.open-next
+
+# misc
+.DS_Store
+
+# local env files
+.env
+
+# local database
+local-db/
+local.*
+docker/database/data/
+
+# dev files
+z-ignore/
+.nx/
+coverage
+test-results
+playwright-report
+storybook-static
